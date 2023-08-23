@@ -13,7 +13,9 @@ public class Pyramid {
                 System.out.print(j);
             }
             printSpaces(numberOfSpaces);
-            System.out.println();
+            if (i != cathetusLength) {
+                System.out.println();
+            }
             numberOfSpaces--;
             num++;
         }
@@ -23,7 +25,7 @@ public class Pyramid {
             System.out.print(" ");
         }
     }
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         new Pyramid().printPyramid(6);
-    }*/
+    }
 }
